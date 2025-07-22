@@ -9,10 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JoshuaOT/chatbot.git",
-
     "devDependencies": {
-    "netlify-plugin-python": "https://codeload.github.com/netlify/netlify-plugin-python/tar.gz/refs/heads/main"
-  }
+      "netlify-plugin-python": "https://codeload.github.com/netlify/netlify-plugin-python/tar.gz/refs/heads/main"
+    }
   },
   "keywords": [],
   "author": "",
@@ -20,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/JoshuaOT/chatbot/issues"
   },
-  "homepage": "https://github.com/JoshuaOT/chatbot#readme"
+  "homepage": "https://github.com/JoshuaOT/chatbot#readme",
+  "dependencies": {
+    "@upstash/redis": "^1.35.1"
+  }
 }
