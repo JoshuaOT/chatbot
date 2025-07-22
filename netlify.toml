@@ -12,3 +12,6 @@
 
 [functions.runtime]
   python = "python3.12"
+
+[[plugins]]
+  package = "netlify-plugin-python"
