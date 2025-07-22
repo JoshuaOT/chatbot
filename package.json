@@ -1,0 +1,24 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaOT/chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshuaOT/chatbot/issues"
+  },
+  "homepage": "https://github.com/JoshuaOT/chatbot#readme",
+
+  "devDependencies": {
+    "netlify-plugin-python": "https://github.com/netlify/netlify-plugin-python.git"
+  }
+}
