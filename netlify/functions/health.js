@@ -1,4 +1,3 @@
-// netlify/functions/health.js
 export async function handler() {
   return {
     statusCode: 200,
