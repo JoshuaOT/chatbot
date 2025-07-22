@@ -8,7 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoshuaOT/chatbot.git"
+    "url": "git+https://github.com/JoshuaOT/chatbot.git",
+
+    "devDependencies": {
+    "netlify-plugin-python": "https://github.com/netlify/netlify-plugin-python.git"
+  }
   },
   "keywords": [],
   "author": "",
@@ -16,9 +20,5 @@
   "bugs": {
     "url": "https://github.com/JoshuaOT/chatbot/issues"
   },
-  "homepage": "https://github.com/JoshuaOT/chatbot#readme",
-
-  "devDependencies": {
-    "netlify-plugin-python": "https://github.com/netlify/netlify-plugin-python.git"
-  }
+  "homepage": "https://github.com/JoshuaOT/chatbot#readme"
 }
