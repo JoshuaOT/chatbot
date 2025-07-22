@@ -11,7 +11,7 @@
     "url": "git+https://github.com/JoshuaOT/chatbot.git",
 
     "devDependencies": {
-    "netlify-plugin-python": "https://github.com/netlify/netlify-plugin-python.git"
+    "netlify-plugin-python": "https://codeload.github.com/netlify/netlify-plugin-python/tar.gz/refs/heads/main"
   }
   },
   "keywords": [],
