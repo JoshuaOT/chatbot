@@ -1,6 +1,6 @@
 [build]
-  functions = "netlify/functions"
   publish   = "public"
+  functions = "netlify/functions"
 
 [dev]
   functions = "netlify/functions"
@@ -8,6 +8,3 @@
 
 [functions]
   directory = "netlify/functions"
-
-[[plugins]]
-  package = "netlify-plugin-python"
