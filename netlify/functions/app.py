@@ -8,13 +8,13 @@ app = FastAPI()
 
 # build Redis client from env-vars
 redis_client = Redis.from_url(
-    os.environ["UPSTASH_REDIS_REST_URL"],
-    token=os.environ["UPSTASH_REDIS_REST_TOKEN"],
+    os.environ["UPSTASH_URL"],
+    token=os.environ["UPSTASH_TOKEN"],
 )
 
 @app.get("/health")
 async def health(x_api_key: str = Header(None)):
-    expected = os.environ.get("UPSTASH_REDIS_REST_TOKEN")
+    expected = os.environ.get("UPSTASH_TOKEN")
     if x_api_key != expected:
         # reject if no header or bad header
         raise HTTPException(status_code=403, detail="Forbidden")
