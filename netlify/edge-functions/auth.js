@@ -3,9 +3,6 @@ import "dotenv/config";
 import { Redis } from "@upstash/redis";
 const redis = Redis.fromEnv();
 
-import { Redis } from "@upstash/redis";
-const redis = Redis.fromEnv();  // automatically reads UPSTASH_REDIS_REST_URL & _TOKEN
-
 export default async (request, context) => {
   const key = request.headers.get("x-api-key");
   if (!key) {
