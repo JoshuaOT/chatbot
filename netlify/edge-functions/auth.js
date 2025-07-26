@@ -4,7 +4,7 @@ import { Redis } from "@upstash/redis";
 const redis = Redis.fromEnv();
 
 export default async (request, context) => {
-  const key = request.headers.get("x-api-key");
+  const redis = Redis.fromEnv();
   if (!key) {
     return new Response("Unauthorized", { status: 401 });
   }
